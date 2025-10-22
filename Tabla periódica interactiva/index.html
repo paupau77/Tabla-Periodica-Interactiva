@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabla Periódica Interactiva</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Tabla Periódica Interactiva</h1>
+    <p>Hace clic en cualquier elemento para ver sus detalles. Podés buscar o personalizar los colores.</p>
+  </header>
+  <div class="top-controls">
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Buscar elemento..." autocomplete="off" aria-label="Buscar elemento">
+      <span class="search-icon">🔍</span>
+    </div>
+    <form class="color-selectors" id="color-form">
+      <label><input type="color" name="metals" value="#4FC3F7"><span>Metales</span></label>
+      <label><input type="color" name="nonmetals" value="#A5D6A7"><span>No metales</span></label>
+      <label><input type="color" name="metalloids" value="#FFD54F"><span>Metaloides</span></label>
+      <label><input type="color" name="halogenos" value="#FFB74D"><span>Halógenos</span></label>
+      <label><input type="color" name="nobles" value="#CE93D8"><span>Gases nobles</span></label>
+      <label><input type="color" name="lantanidos" value="#B0BEC5"><span>Lantánidos</span></label>
+      <label><input type="color" name="actinidos" value="#8D6E63"><span>Actínidos</span></label>
+    </form>
+  </div>
+  <main>
+    <div id="periodic-table"></div>
+  </main>
+  <div id="modal" class="modal" tabindex="-1">
+    <div class="modal-content">
+      <span id="close-modal" class="close" tabindex="0">&times;</span>
+      <div id="element-details"></div>
+    </div>
+  </div>
+  <footer>
+      <small>By Pau 💙 - @paupau77 on Github</small>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
