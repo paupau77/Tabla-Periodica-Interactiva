@@ -32,6 +32,7 @@ cd Tabla-Periodica-Interactiva
 
 # 3. Abre el archivo index.html en tu navegador favorito. Eso es todo!
 open index.html
+   ```
 
 ## 🤝 Contribuciones
 
