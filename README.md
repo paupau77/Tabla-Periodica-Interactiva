@@ -1,8 +1,11 @@
 # ✨ Tabla Periódica Interactiva
 
-[![Estatus](https://img.shields.io/badge/Status-Completado-green)](https://github.com/TuUsuario/Tabla-Periodica-Interactiva)
-[![Tecnologías](https://img.shields.io/badge/Tecnolog%C3%ADas-HTML%20%7C%20CSS%20Grid%20%7C%20Vanilla%20JS-blue)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![Licencia](https://img.shields.io/badge/Licencia-MIT-brightgreen)](LICENSE)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive%20Design-%F0%9F%93%B1-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-orange?style=for-the-badge)
 
 Una implementación interactiva y responsiva de la Tabla Periódica de los Elementos, construida con HTML, CSS Grid y JavaScript.
 
